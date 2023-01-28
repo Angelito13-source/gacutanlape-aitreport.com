@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edge Computing and Databases</title>
+    <link rel="stylesheet" href="styleimg.css">
+<style>
+
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" class="logo">
+        <ul>
+        <li><a href="website.html">Back</a></li>
+        <li><a href="visualizing.html">Previews</a></li>
+        <li><a href="quiz.html">Next</a></li>
+        </ul>
+    </div>
+    <h2>Edge Computing and Databases</h2>
+    <h1>All edge computing architectures have an important requirement: using the right kind of database. 
+        <br>If you’re building an edge architecture, you need to use a database that:</h1>
+    
+    <h1>Runs in all layers</h1>
+    <h1>Distributes its data footprint across all layers</h1>
+    <h1>Synchronizes data changes instantly across all layers</h1>
+    <div class="wrapper">
+        <h1>In essence, you need to create a synchronous fabric of data processing that spans the entire architecture: from the cloud through the edge to the device. 
+            <br>Let’s take a closer look at our architecture diagram from earlier:</h1>
+        <img class="img-diagram" src="edgecd.png" alt="diagram">
+    </div>
+    <h1>In this version of the edge computing architecture, I’ve added red database icons to emphasize where data 
+        <br>is stored and processed.</h1>
+    <h1>In the cloud layer, you see a database server installed in the central data center, as well as the 
+        <br>interconnected data centers across cloud regions.</h1>
+    <h1>Then in the edge layer, a database server is installed in the edge data center.</h1>
+    <h1>Finally, a database is embedded directly to select edge mobile and IoT devices, allowing them to keep 
+        <br>processing, even in the event of total network failure.</h1>
+    <h1>But edge computing is much more than simply installing a database at every level. The databases must 
+        <br>e able to work together in tandem as a cohesive whole, replicating and synchronizing data captured at 
+        <br>the edge across the rest of the environment to guarantee that data is always available and never lost 
+        <br>or corrupted.</h1>
+    <h1>As such, in the diagram you also see data being synchronized:</h1>
+    <h1>Between cloud and edge database servers</h1>
+    <h1>Between embedded databases on devices and database servers at the edge or in the cloud</h1>
+    <h1>Between the embedded databases on devices and things, using private area networks</h1>
+    <h1>By spreading data processing across every layer of your architecture, you achieve greater speed, resilience, 
+        <br>security and bandwidth efficiency.</h1>
+    <h1>If the internet connection to the cloud data center slows or stops, applications process data in the edge 
+        <br>data centers instead, completely unaffected and highly responsive. And if the cloud data center and edge 
+        <br>data center become unavailable, apps with embedded databases continue to run as intended and in real 
+        <br>time by processing and syncing data directly on and between devices. And if the catastrophic happens 
+        <br>and all network layers become unavailable, edge devices with embedded data processing serve as their own 
+        <br>micro data centers, running in isolation with 100% availability and real-time responsiveness until 
+        <br>connectivity is restored.</h1>
+    <h1>Another big benefit of the edge computing model is robust support for data privacy and security. These 
+        <br>considerations are critical for applications that handle sensitive data, such as in healthcare or finance. 
+        <br>A key value point for edge computing is that sensitive data never has to leave the edge.</h1>
+    <h1>With an edge computing architecture, users and devices always have speedy access to data, even in the event of 
+        <br>internet latency or outage. And your database plays a pivotal role in making it all happen.</h1>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Real-World Example of Edge Computing</title>
+<style>
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: large;
+    font-family: Arial;
+    text-align: left;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Arial;
+    text-align: center;
+    color:#ffffff;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #07817b;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.logo {
+    width: 350px;
+    cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" class="logo">
+        <ul>
+        <li><a href="website.html">Back</a></li>
+        <li><a href="Intro.html">Previews</a></li>
+        <li><a href="visualizing.html">Next</a></li>
+        </ul>
+    </div>
+    <h2>A Real-World Example of Edge Computing</h2>
+    <h1>Imagine an oil drilling platform in the middle of the North Sea. 
+        <br>Operators collect data from sensors all over the platform as part of a daily routine, 
+        <br>measuring things like pressure, temperature, wave height, and other factors that affect operating capacity. 
+        <br>This kind of data comes fast, changes often and requires a real-time response.</h1>
+    
+    <h1>Suppose that the oil platform data is stored and processed in a cloud data center. 
+        <br>The platform operators would have to send their data over the internet – and in the 
+        <br>North Sea that means via satellite which is slow and expensive – just to evaluate their measurements.</h1>
+    <h1>Now, imagine that a sensor on a critical component of the platform begins to detect signs of likely failure, 
+        <br>a potential break down that could lead to a dangerous turn of events. It takes too much time to collect data points on the component, 
+        <br>send them to the cloud for processing, and then wait for a recommended course of action. And if the connection slows – or falters for 
+        <br>even a bit? Critical time is lost. By the time the platform operators receive a response from the cloud, it could be too late.</h1>
+    <h1>Where seconds count and when the difference between uptime and downtime determines safety or disaster – depending on an unreliable internet 
+        <br>connection isn’t an option.</h1>
+    <h1>Enter edge computing. It’s a simple solution: eliminate the risks of a disaster by putting a data center on the oil drilling platform itself. 
+        <br>When you move the processing of critical data to the place where it happens, you solve the problems of latency and downtime. 
+        <br>Instead of sending data to the cloud, it’s processed in an edge data center – no more waiting on a slow connection for critical analysis.</h1>
+    <h1>With an edge data center, when measurements or readings need immediate attention, they are detected instantly, 
+        <br>and operators can respond in real time. Operations are more efficient and safety risks are significantly reduced. 
+        <br>And when connectivity permits, only aggregated data needs to be sent to the cloud for long-term storage, saving on bandwidth costs.</h1>
+    <h1>This is the power and promise of edge computing.</h1>
+</body>
+</html>

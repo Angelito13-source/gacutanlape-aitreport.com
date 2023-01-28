@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intro</title>
+<style>
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: large;
+    font-family: Arial;
+    text-align: left;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Arial;
+    text-align: center;
+    color:#ffffff;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #07817b;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.logo {
+    width: 350px;
+    cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" class="logo">
+        <ul>
+        <li><a href="website.html">Back</a></li>
+        <li><a href="example.html">Next</a></li>
+        </ul>
+    </div>
+    <h2>What is Edge Computing?</h2>
+    <h1>Edge computing is a distributed computing paradigm that brings computation and data storage 
+        closer to the sources of data. <br>This is expected to improve response times and save bandwidth. 
+        The term refers to an architecture rather than a specific technology.</h1>
+    
+    <h1>Connected homes</h1>
+    <h1>Autonomous vehicles</h1>
+    <h1>Robotic surgery</h1>
+    <h1>Advanced real-time gaming</h1>
+    <h1>Edge computing is an alternative architecture to cloud computing for applications that require high-speed and high availability. 
+        <br>This is because apps that rely solely on the cloud for storing and processing data become dependent on internet connectivity
+        <br> – and therefore subject to its inherent unreliability. When the internet slows or becomes unavailable, 
+        <br>the entire application slows or fails in turn.</h1>
+        <h1>Edge computing gets around internet dependencies by locating data as close as possible to where it is produced and consumed, 
+        <br>which speeds up applications and improves their availability.</h1>
+</body>
+</html>
