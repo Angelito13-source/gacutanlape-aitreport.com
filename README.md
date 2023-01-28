@@ -1,1 +1,1 @@
-# gacutanlape-aitreport.com
+# gacutanlapenaitreport.com
